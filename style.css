@@ -9,12 +9,13 @@
   grid-column: 1 / 3;
 
   grid-row: 1 / 3;
-  animation-name: move;
+  /*animation-name: move;
   animation-duration: 2s;
+  */
 
 }
 
-@keyframes move {
+/*@keyframes move {
   0% {
     left: 0;
     top: 0;
@@ -26,7 +27,7 @@
   }
 
 
-}
+}*/
 
 /*.image-one:hover {
   animation-name: move;
