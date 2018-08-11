@@ -55,6 +55,14 @@
 
 }
 
+.image-four {
+  grid-column: 4 / 6;
+  grid-row: 3 / 4;
+  width: 100%;
+  height: auto;
+  opacity: 0.75;
+}
+
 img {
   max-height: 300px;
   width: 100%;
