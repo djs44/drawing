@@ -3,6 +3,7 @@
   grid-template-columns: 200px 200px 200px 200px 200px;
   grid-template-rows: 200px 200px 200px 200px 200px;
   grid-gap: 30px;
+
 }
 
 .image-one {
@@ -57,10 +58,10 @@
 
 .image-four {
   grid-column: 4 / 6;
-  grid-row: 3 / 4;
+  grid-row: 3 / 3;
   width: 100%;
   height: auto;
-  opacity: 0.75;
+
 }
 
 img {
@@ -94,4 +95,8 @@ li {
   text-decoration: none;
   font-size: 16px;
   display: inline;
+}
+
+body {
+  margin: 30px;
 }
