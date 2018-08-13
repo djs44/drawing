@@ -27,23 +27,27 @@
       <img src= "images/great-white-shark.jpg"></a>
   </div>
     <div class="title-text">
-      My Drawings
+      <a href="index.html">My Drawings</a>
 
         <ul>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+        <a href="index.html"><li>Home</li></a>
+          <li onclick = "showAbout('about')"><a href="#about">About</li>
+        <li onclick = "showContact('contact')"><a href="#contact">Contact</a href=""></li>
         </ul>
+        <p id="contact">Please email seideldan@gmail.com for all inquiries. </p>
+        <p id="about">A self-taught artist whose favorite subjects are animals and architecture.</p>
+    </div>
+    </div>
+    <script type="text/javascript">
+    function showContact(id) {
+      var x = document.getElementById(id).style.display = 'block';
 
-    </div>
-    </div>
-    <script>
-    $( ".draggable" ).draggable({
-      /*axis: "x",*/
-      cursor: "crosshair",
-       snap: false,
-       revert: false
-    });
+    }
+
+    function showAbout(id) {
+      var x = document.getElementById(id).style.display = 'block';
+    }
     </script>
+
   </body>
 </html>

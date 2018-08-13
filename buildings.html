@@ -9,7 +9,20 @@
 
   </head>
   <body>
-    <h1>Hello Buildings<h1>
+    <div class="grid-container-2">
+      <div class="title-text">
+        <a href="index.html">My Drawings</a>
+
+          <ul>
+          <a href="index.html"><li>Home</li></a>
+            <li onclick = "showAbout('about')"><a href="#about">About</li>
+          <li onclick = "showContact('contact')"><a href="#contact">Contact</a href=""></li>
+          </ul>
+          <p id="contact">Please email seideldan@gmail.com for all inquiries. </p>
+          <p id="about">A self-taught artist whose favorite subjects are animals and architecture.</p>
+      </div>
+  </div>
+    <h1>Buildings<h1>
       <div class="row">
     <div class="column">
       <img src="images/Eltz-castle.jpg">
@@ -28,5 +41,15 @@
 
     </div>
   </div>
+  <script type="text/javascript">
+  function showContact(id) {
+    var x = document.getElementById(id).style.display = 'block';
+
+  }
+
+  function showAbout(id) {
+    var x = document.getElementById(id).style.display = 'block';
+  }
+  </script>
   </body>
 </html>
